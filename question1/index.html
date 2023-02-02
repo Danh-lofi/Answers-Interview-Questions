@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUESTION 1</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="main none-data">
+     
+      <div class="content__container">
+          <div class="follow-the-leader">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+        <div class="content" id="content">
+          <!-- Lazy loading -->
+          <ul class="content__list" id="list_post">
+          </ul>
+        </div>
+      </div>
+      <div class="button__container">
+        <button class="button fetch" id="btn_fetch">Fetch</button>
+        <button class="button create" id="btn_create">Create</button>
+      </div>
+
+    </div>
+    
+    <div id="modal" class="create__post__container">
+        <div class="create__post__wrap">
+            <div class="close" id="close_modal">
+                <span>x</spa>
+            </div>
+            <div class="input__container">
+                <input id="userID" class="input" type="text" placeholder="User Id"/>
+                <input id="id" class="input" type="text" placeholder=" Id" />
+                <input id="title" class="input" type="text" placeholder="Title" />
+                <input id="body" class="input" type="text" placeholder="Body" />
+            </div>
+            <button class="button submit" id="btn_submit">Submit</button>
+
+        </div>  
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
